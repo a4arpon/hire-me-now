@@ -7,13 +7,20 @@
 }
 /* Navbar CSS Styling */
 header {
-  background: rgb(63, 94, 251);
+  background: rgba(63, 94, 251, 0.321);
   background: linear-gradient(
     189deg,
-    rgba(63, 94, 251, 0.174) 0%,
-    rgba(152, 115, 255, 0.146) 100%
+    rgba(63, 94, 251, 0.1) 0%,
+    rgba(152, 115, 255, 0.03) 100%
   );
 }
 .navBar {
-  @apply container mx-auto py-10 px-5 flex justify-between items-center;
+  @apply container mx-auto py-10 px-5 flex justify-between flex-col lg:flex-row lg:items-center overflow-hidden;
+}
+.btnPrimary {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  @apply rounded-lg px-4 py-3 font-semibold text-white;
+}
+.navLinks {
+  @apply text-gray-700 font-semibold my-5 flex flex-col lg:flex-row mt-10 lg:mt-auto;
 }
