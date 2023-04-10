@@ -43,3 +43,7 @@ header {
 .fCard {
   @apply bg-gray-100 border-gray-300 border-2 rounded-lg p-5;
 }
+.footerContainer {
+  background: #1a1919;
+  @apply py-32 mt-10 text-white;
+}

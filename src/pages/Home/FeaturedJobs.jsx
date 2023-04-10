@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import { useLoaderData } from "react-router-dom";
 import FeaturedJob from "./FeaturedJob";
 
 const FeaturedJobs = () => {
+  const jobDataInit = useLoaderData();
+  const [jobData, setJobData] = useState(0);
+  
   return (
     <div className="container mx-auto px-3 mt-20">
       <div className="text-center">
@@ -12,7 +16,9 @@ const FeaturedJobs = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-3">
-        <FeaturedJob />
+        {jobDataInit.map((jobDataInit) => (
+          <FeaturedJob featuredJob={jobDataInit} key={jobDataInit.id} />
+        ))}
       </div>
     </div>
   );

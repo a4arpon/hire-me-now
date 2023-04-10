@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://www.example.com/images/company1_logo.png",
+    "job_title": "MERN Stack Developer",
+    "company_name": "ABC Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "USA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a skilled MERN Stack Developer to join our team. You will be responsible for developing and maintaining web applications using the MERN stack (MongoDB, Express, React, Node.js).",
+    "job_responsibility": "- Design and develop web applications using the MERN stack <br/> - Collaborate with cross-functional teams to define, design, and ship new features <br/> - Write clean, maintainable, and efficient code <br/> - Troubleshoot and debug applications <br/> - Stay up-to-date with emerging technologies and trends in web development",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "3+ years of experience in MERN stack development",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "jobs@abccorp.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://www.example.com/images/company2_logo.png",
+    "job_title": "React Native Developer",
+    "company_name": "XYZ Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "India",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "INR 10-15 LPA",
+    "job_description": "We are looking for a React Native Developer to join our growing team. You will be responsible for developing and maintaining mobile applications for iOS and Android platforms.",
+    "job_responsibility": "- Design and develop mobile applications using React Native <br/> - Collaborate with cross-functional teams to define, design, and ship new features <br/> - Write clean, maintainable, and efficient code <br/> - Troubleshoot and debug applications <br/> - Stay up-to-date with emerging technologies and trends in mobile development",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "2+ years of experience in React Native development",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "jobs@xyzinc.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "job_title": "React Native Developer",
+    "company_name": "Google",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$130,000 - $170,000",
+    "job_description": "Google is seeking a talented React Native Developer to help build next-generation mobile applications for our users.",
+    "job_responsibility": "- Build and maintain high-quality mobile applications using React Native. <br /> - Collaborate with cross-functional teams to identify and solve complex problems. <br /> - Participate in code reviews and provide feedback to other developers. <br /> - Stay up-to-date with emerging trends and technologies in mobile development.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in mobile app development",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "jobs@google.com"
+    }
+  },
+
+  {
+    "id": 4,
+    "company_logo": "https://www.example.com/images/logo.png",
+    "job_title": "SEO Specialist",
+    "company_name": "ABC Agency",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $80,000",
+    "job_description": "We are seeking an experienced SEO Specialist to lead our efforts in improving our clients' search engine visibility. The ideal candidate will have a deep understanding of SEO best practices, strong analytical skills, and the ability to work collaboratively with internal teams and clients.",
+    "job_responsibility": "- Conduct keyword research and analysis.\n- Optimize website content and meta data for search engines.\n- Develop and execute SEO strategies for clients.\n- Monitor and report on SEO performance metrics.\n- Stay up-to-date with industry trends and best practices.",
+    "educational_requirements": "Bachelor's degree in Marketing, Business, or related field.",
+    "experiences": "Minimum of 3 years of experience in SEO, with a proven track record of success.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "careers@abcagency.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://www.example.com/images/logo.png",
+    "job_title": "React Developer with PHP",
+    "company_name": "ABC Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere in the US",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$70,000 - $90,000",
+    "job_description": "We are looking for an experienced React Developer with strong knowledge of PHP to join our team. The ideal candidate will have a passion for creating beautiful and functional user interfaces, as well as the ability to work collaboratively with other developers and stakeholders.",
+    "job_responsibility": "- Develop and maintain high-quality code for web applications using React and PHP.\n- Work collaboratively with designers, developers, and stakeholders to ensure the best user experience.\n- Participate in code reviews to ensure code quality and maintainability.\n- Stay up-to-date with emerging trends and technologies in front-end development.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "Minimum of 3 years of experience in React development and PHP.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "hr@abcinc.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://www.example.com/company20_logo.png",
+    "job_title": "MERN Stack Developer",
+    "company_name": "ABC Solutions",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$120,000 - $140,000",
+    "job_description": "We are seeking a skilled MERN Stack Developer to join our team. The ideal candidate should have experience building web applications using the MERN stack.",
+    "job_responsibility": "Develop and maintain web applications using the MERN stack. Collaborate with designers, product managers, and other developers to deliver high-quality software. Write clean, modular, and well-documented code. Participate in code reviews and share knowledge with the team.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "3+ years of experience with the MERN stack",
+    "contact_info": {
+      "phone": "555-5678",
+      "email": "jobs@abcsolutions.com"
+    }
+  },
+
+  {
+    "id": 7,
+    "company_logo": "https://www.example.com/company21_logo.png",
+    "job_title": "React Native Developer",
+    "company_name": "PQR Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Austin, TX",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$90,000 - $110,000",
+    "job_description": "We are looking for a React Native Developer to join our team. The ideal candidate should have experience building complex mobile applications using React Native.",
+    "job_responsibility": "Develop and maintain complex mobile applications using React Native. Collaborate with designers, product managers, and other developers to deliver high-quality software. Write clean, modular, and well-documented code. Participate in code reviews and share knowledge with the team.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "1+ years of experience with React Native",
+    "contact_info": {
+      "phone": "555-2468",
+      "email": "jobs@pqrcorp.com"
+    }
+  },
+  {
+    "id": 8,
+    "company_logo": "https://www.example.com/images/logo.png",
+    "job_title": "UI/UX Designer",
+    "company_name": "ABC Corp.",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "ABC Corp. is seeking a talented UI/UX Designer to join our team. The ideal candidate will have experience in designing user interfaces for web and mobile applications, a strong understanding of user-centered design principles, and the ability to collaborate with cross-functional teams to deliver exceptional design solutions.",
+    "job_responsibility": "- Design and prototype user interfaces for web and mobile applications.\n- Conduct user research and usability testing to validate design decisions.\n- Collaborate with cross-functional teams to ensure design consistency and coherence.\n- Stay up-to-date with industry trends and best practices in user-centered design.",
+    "educational_requirements": "Bachelor's degree in design or related field.",
+    "experiences": "Minimum of 3 years of experience in UI/UX design, with a portfolio demonstrating expertise in designing user interfaces for web and mobile applications.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "hr@abccorp.com"
+    }
+  },
+  {
+    "id": 9,
+    "company_logo": "https://www.example.com/images/logo.png",
+    "job_title": "Marketing Manager",
+    "company_name": "ABC Corporation",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are seeking a talented Marketing Manager to lead our marketing team and develop innovative marketing strategies to drive business growth. The ideal candidate will have a proven track record in marketing management, excellent communication skills, and a strong understanding of digital marketing channels.",
+    "job_responsibility": "- Develop and implement marketing strategies to drive business growth.\n- Manage and lead a team of marketing professionals.\n- Work collaboratively with cross-functional teams to ensure marketing initiatives align with company goals.\n- Develop and manage marketing budgets.\n- Monitor and analyze marketing metrics to measure the effectiveness of campaigns.",
+    "educational_requirements": "Bachelor's degree in Marketing, Communications, or related field. Master's degree preferred.",
+    "experiences": "Minimum of 5 years of experience in marketing management or related role.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "hr@abccorporation.com"
+    }
+  },
+  {
+    "id": 10,
+    "company_logo": "https://www.example.com/images/logo.png",
+    "job_title": "Sales Representative",
+    "company_name": "XYZ Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere in the US",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$50,000 - $70,000",
+    "job_description": "We are seeking a driven Sales Representative to join our team and help grow our business. The ideal candidate will have a proven track record in sales, excellent communication and interpersonal skills, and the ability to work independently.",
+    "job_responsibility": "- Identify and pursue new business opportunities.\n- Build and maintain strong relationships with clients.\n- Meet or exceed sales targets on a regular basis.\n- Work collaboratively with internal teams to ensure customer satisfaction.\n- Maintain up-to-date knowledge of industry trends and competition.",
+    "educational_requirements": "Bachelor's degree in Sales, Marketing, Business, or related field.",
+    "experiences": "Minimum of 2 years of experience in sales, preferably in a B2B environment.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "hr@xyzinc.com"
+    }
+  }
+]
