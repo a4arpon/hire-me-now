@@ -47,3 +47,17 @@ header {
   background: #1a1919;
   @apply py-32 mt-10 text-white;
 }
+.applyPageBanner {
+  background-image: url("./assets/AllImages/Vector.png");
+  background-position: left top, right bottom;
+  @apply bg-no-repeat lg:bg-contain bg-scroll text-center py-28 lg:py-36 lg:bg-[url('./assets/AllImages/Vector-1.png'),url('./assets/AllImages/Vector.png')];
+}
+.jobContainer {
+  @apply grid grid-cols-1 lg:grid-cols-3 container mx-auto px-3 mt-20 gap-5;
+}
+.jobDetails {
+  @apply border border-gray-300 p-5 lg:col-span-2;
+}
+.jobBrief {
+  @apply p-5 bg-violet-200 text-gray-700 text-xl rounded-lg; 
+}

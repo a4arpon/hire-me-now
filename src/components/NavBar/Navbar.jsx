@@ -30,6 +30,14 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive ? "text-blue-400 lg:mx-5 " : "lg:mx-5"
             }
+            to={"/"}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "text-blue-400 lg:mx-5 " : "lg:mx-5"
+            }
             to={"/statistics"}
           >
             Statistics

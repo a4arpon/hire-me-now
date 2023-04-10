@@ -5,6 +5,8 @@ import AppContainer from "./AppContainer";
 import Home from "./pages/Home/Home";
 import "./index.css";
 import About from "./pages/About/About";
+import ApplyToJob from "./pages/ApplyToJob/ApplyToJob";
+import jobLoader from "./utilities/Utility";
 // React Router
 const router = createBrowserRouter([
   {
@@ -19,6 +21,11 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/applyToJob/:id",
+        element: <ApplyToJob />,
+        loader: ({ params }) => jobLoader(params.id),
       },
     ],
   },
