@@ -46,9 +46,9 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive ? "text-blue-400 lg:mx-5 " : "lg:mx-5"
             }
-            to={"/about"}
+            to={"/appliedJobs"}
           >
-            About
+            Applied Jobs
           </NavLink>
           <NavLink
             className={({ isActive }) =>

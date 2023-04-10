@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import { jobApply } from "../../utilities/Utility";
 import Banner from "./Banner";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ApplyToJob = () => {
   const unFilteredData = useLoaderData();
+  const [alreadyApplied, setAlreadyApplied] = useState(false);
   const {
     id,
     job_title,
@@ -18,6 +22,11 @@ const ApplyToJob = () => {
     remote_or_onsite,
     salary,
   } = unFilteredData;
+  const apply = (id) => {
+    jobApply(id)
+      ? new toast("Successfully applied in this job")
+      : new toast("Already applied for this job");
+  };
   return (
     <div>
       <Banner />
@@ -67,9 +76,12 @@ const ApplyToJob = () => {
               </p>
             </div>
           </div>
-          <button className="btnPrimary my-5 w-full">Apply Now</button>
+          <button className="btnPrimary my-5 w-full" onClick={() => apply(id)}>
+            Apply Now
+          </button>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };

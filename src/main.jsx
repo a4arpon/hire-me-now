@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
 import AppContainer from "./AppContainer";
 import Home from "./pages/Home/Home";
-import "./index.css";
-import About from "./pages/About/About";
 import ApplyToJob from "./pages/ApplyToJob/ApplyToJob";
-import jobLoader from "./utilities/Utility";
+import { appliedJobsLoader, jobLoader } from "./utilities/Utility";
+import AppliedJobs from "./pages/AppliedJobs/AppliedJobs";
 // React Router
 const router = createBrowserRouter([
   {
@@ -16,11 +16,12 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("./data.json"),
+        loader: () => fetch("/data.json"),
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/appliedJobs",
+        element: <AppliedJobs />,
+        loader: appliedJobsLoader,
       },
       {
         path: "/applyToJob/:id",
