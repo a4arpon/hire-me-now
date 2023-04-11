@@ -2,15 +2,27 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const FeaturedJob = ({ featuredJob }) => {
-  const { id, job_title, company_name, remote_or_onsite, location, salary } =
-    featuredJob;
+  const {
+    id,
+    job_title,
+    company_name,
+    remote_or_onsite,
+    location,
+    salary,
+    fulltime_or_parttime,
+  } = featuredJob;
   return (
     <div className="fCard">
-      <h1 className="text-2xl font-extrabold mb-2">{job_title}</h1>
-      <p className="text-xl font-bold text-gray-500 mb-2">{company_name}</p>
-      <p className="bg-violet-200 border-violet-400 border-2 w-fit p-2 rounded-lg mb-2">
-        {remote_or_onsite}
-      </p>
+      <h1 className="text-2xl font-extrabold mb-3">{job_title}</h1>
+      <p className="text-xl font-bold text-gray-500 mb-3">{company_name}</p>
+      <div className="flex gap-5 mb-3">
+        <p className="bg-violet-100 border-violet-400 border-2 w-fit p-2 rounded-lg mb-3">
+          {remote_or_onsite}
+        </p>
+        <p className="bg-violet-100 border-violet-400 border-2 w-fit p-2 rounded-lg mb-3">
+          {fulltime_or_parttime}
+        </p>
+      </div>
       <div className="flex flex-col md:flex-row  justify-between text-xl font-bold text-gray-500 mb-2">
         <div className="flex mb-2">
           <svg

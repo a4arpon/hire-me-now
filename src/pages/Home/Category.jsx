@@ -4,6 +4,24 @@ import businessImg from "../../assets/Icons/business1.png";
 import smedia from "../../assets/Icons/social-media1.png";
 import engineerImg from "../../assets/Icons/chip1.png";
 const Category = () => {
+  const categoryData = [
+    { img: accountImg, title: "Account & Finance", jobAvailable: "300" },
+    {
+      img: businessImg,
+      title: "Creative Design",
+      jobAvailable: "100+",
+    },
+    {
+      img: smedia,
+      title: "Marketing & Sales",
+      jobAvailable: "150",
+    },
+    {
+      img: engineerImg,
+      title: "Engineering Job",
+      jobAvailable: "224",
+    },
+  ];
   return (
     <div className="mt-20 container mx-auto px-3">
       <div className="text-center">
@@ -14,42 +32,17 @@ const Category = () => {
         </p>
       </div>
       <div className="categoryCardContainer">
-        <div className="catCard">
-          <img
-            src={accountImg}
-            alt=""
-            className="bg-violet-200 rounded-lg p-5 mb-5"
-          />
-          <h3 className="text-xl font-extrabold mb-3">Account & Finance</h3>
-          <p className="text-gray-600">300 Jobs Available</p>
-        </div>
-        <div className="catCard">
-          <img
-            src={businessImg}
-            alt=""
-            className="bg-violet-200 rounded-lg p-5 mb-5"
-          />
-          <h3 className="text-xl font-extrabold mb-3">Creative Design</h3>
-          <p className="text-gray-600">100+ Jobs Available</p>
-        </div>
-        <div className="catCard">
-          <img
-            src={smedia}
-            alt=""
-            className="bg-violet-200 rounded-lg p-5 mb-5"
-          />
-          <h3 className="text-xl font-extrabold mb-3">Marketing & Sales</h3>
-          <p className="text-gray-600">150 Jobs Available</p>
-        </div>
-        <div className="catCard">
-          <img
-            src={engineerImg}
-            alt=""
-            className="bg-violet-200 rounded-lg p-5 mb-5"
-          />
-          <h3 className="text-xl font-extrabold mb-3">Engineering Job</h3>
-          <p className="text-gray-600">224 Jobs Available</p>
-        </div>
+        {categoryData.map((item) => (
+          <div className="catCard">
+            <img
+              src={item.img}
+              alt={item.title}
+              className="bg-violet-200 rounded-lg p-5 mb-5"
+            />
+            <h3 className="text-xl font-extrabold mb-3">{item.title}</h3>
+            <p className="text-gray-600">{item.jobAvailable} Jobs Available</p>
+          </div>
+        ))}
       </div>
     </div>
   );

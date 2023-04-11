@@ -65,5 +65,5 @@ header {
   @apply container mx-auto px-3;
 }
 .jobItem {
-  @apply p-5 border border-gray-300;
+  @apply p-5 border border-gray-300 flex flex-col lg:flex-row lg:justify-between lg:items-center;
 }
