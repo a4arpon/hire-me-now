@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home";
 import ApplyToJob from "./pages/ApplyToJob/ApplyToJob";
 import { appliedJobsLoader, jobLoader } from "./utilities/Utility";
 import AppliedJobs from "./pages/AppliedJobs/AppliedJobs";
+import Statistics from "./pages/Statistics/Statistics";
 // React Router
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         path: "/applyToJob/:id",
         element: <ApplyToJob />,
         loader: ({ params }) => jobLoader(params.id),
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />,
       },
     ],
   },
