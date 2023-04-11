@@ -50,11 +50,11 @@ const Statistics = () => {
         </div>
         <div className="chart">
           <RadarChart
-            cx={300}
+            cx={400}
             cy={250}
-            outerRadius={150}
-            width={500}
-            height={500}
+            outerRadius={250}
+            width={900}
+            height={900}
             data={marks}
           >
             <PolarGrid />
@@ -64,8 +64,8 @@ const Statistics = () => {
               name="Marks"
               dataKey="marks"
               stroke="#8884d8"
-              fill="#8884d8"
-              fillOpacity={0.6}
+              fill="#b7b5e785"
+              fillOpacity={0.5}
             />
             <Tooltip />
           </RadarChart>
