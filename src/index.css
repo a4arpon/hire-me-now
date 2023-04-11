@@ -59,5 +59,11 @@ header {
   @apply border border-gray-300 p-5 lg:col-span-2;
 }
 .jobBrief {
-  @apply p-5 bg-violet-200 text-gray-700 text-xl rounded-lg; 
+  @apply p-5 bg-violet-200 text-gray-700 text-xl rounded-lg;
+}
+.appliedJobContainer {
+  @apply container mx-auto px-3;
+}
+.jobItem {
+  @apply p-5 border border-gray-300;
 }
