@@ -1,0 +1,18 @@
+[
+  { "img": "https://cdn.iconscout.com/icon/premium/png-512-thumb/financial-control-4305319-3576417.png?f=avif&w=72", "title": "Account & Finance", "jobAvailable": "300" },
+  {
+    "img": "https://cdn.iconscout.com/icon/premium/png-512-thumb/creative-design-2955858-2454063.png?f=avif&w=72",
+    "title": "Creative Design",
+    "jobAvailable": "100+"
+  },
+  {
+    "img": "https://cdn.iconscout.com/icon/premium/png-512-thumb/money-2117077-1784271.png?f=avif&w=72",
+    "title": "Marketing & Sales",
+    "jobAvailable": "150"
+  },
+  {
+    "img": "https://cdn.iconscout.com/icon/premium/png-512-thumb/manager-5845109-4898970.png?f=avif&w=72",
+    "title": "Engineering Job",
+    "jobAvailable": "224"
+  }
+]

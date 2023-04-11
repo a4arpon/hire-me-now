@@ -3,25 +3,16 @@ import accountImg from "../../assets/Icons/accounts1.png";
 import businessImg from "../../assets/Icons/business1.png";
 import smedia from "../../assets/Icons/social-media1.png";
 import engineerImg from "../../assets/Icons/chip1.png";
+import { useState } from "react";
+import { useEffect } from "react";
 const Category = () => {
-  const categoryData = [
-    { img: accountImg, title: "Account & Finance", jobAvailable: "300" },
-    {
-      img: businessImg,
-      title: "Creative Design",
-      jobAvailable: "100+",
-    },
-    {
-      img: smedia,
-      title: "Marketing & Sales",
-      jobAvailable: "150",
-    },
-    {
-      img: engineerImg,
-      title: "Engineering Job",
-      jobAvailable: "224",
-    },
-  ];
+  const [categoryList, setCategoryList] = useState([]);
+  useEffect(() => {
+    fetch("/category.json")
+      .then((res) => res.json())
+      .then((res) => setCategoryList(res));
+  }, []);
+
   return (
     <div className="mt-20 container mx-auto px-3">
       <div className="text-center">
@@ -32,7 +23,7 @@ const Category = () => {
         </p>
       </div>
       <div className="categoryCardContainer">
-        {categoryData.map((item, index) => (
+        {categoryList.map((item, index) => (
           <div className="catCard" key={index}>
             <img
               src={item.img}
