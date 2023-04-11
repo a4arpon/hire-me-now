@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const JobItem = ({ jobData }) => {
   const {
+    company_logo,
     job_title,
     company_name,
     fulltime_or_parttime,
@@ -13,8 +14,10 @@ const JobItem = ({ jobData }) => {
   } = jobData;
   return (
     <div className="jobItem">
-      <div className="lg:w-3/5">
-        <img src="" alt="" />
+      <div className="lg:w-3/5 flex flex-col lg:flex-row gap-5">
+        <div className="flex items-center lg:w-56 justify-center lg:bg-imgBg">
+          <img src={company_logo} alt="" className="lg:w-full lg:h-auto h-24" />
+        </div>
         <div>
           <h1 className="text-2xl font-extrabold mb-3">{job_title}</h1>
           <p className="mb-3 text-2xl font-semibold text-gray-500">
