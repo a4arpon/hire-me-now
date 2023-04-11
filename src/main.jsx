@@ -8,11 +8,14 @@ import ApplyToJob from "./pages/ApplyToJob/ApplyToJob";
 import { appliedJobsLoader, jobLoader } from "./utilities/Utility";
 import AppliedJobs from "./pages/AppliedJobs/AppliedJobs";
 import Statistics from "./pages/Statistics/Statistics";
+import Error from "./pages/Error";
+import Blog from "./pages/Blog/Blog";
 // React Router
 const router = createBrowserRouter([
   {
     path: "/",
     element: <AppContainer />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
@@ -32,6 +35,11 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+        loader: () => fetch("/blog.json"),
       },
     ],
   },

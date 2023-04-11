@@ -51,7 +51,7 @@ const ApplyToJob = () => {
         <div className="">
           <div className="jobBrief">
             <h3 className="text-black font-extrabold mb-3">Job Details</h3>
-            <hr className="bg-black" />
+            <hr className="border-gray-500 my-5 border" />
             <div className="my-5">
               <p className="mb-3">
                 <strong>Salary : </strong> {salary} (Per Month)
@@ -63,7 +63,7 @@ const ApplyToJob = () => {
             <h3 className="text-black font-extrabold mb-3">
               Contact Information
             </h3>
-            <hr className="bg-black" />
+            <hr className="border-gray-500 my-5 border" />
             <div className="my-5">
               <p className="mb-3">
                 <strong>Phone : </strong> {contact_information.phone}
